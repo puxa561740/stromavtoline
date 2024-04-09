@@ -11,20 +11,20 @@ import Catalog from "../components/Сatalog/catalog";
 const router = createBrowserRouter (
   [
     {
-      path: '/',
+      path: '/stromavtoline',
       element: <App/>,
       errorElement: <ErrorPage />,
       children: [
         {
-          path: "contacts",
+          path: "/stromavtoline/contacts",
           element: <Contacts/>,
         },
         {
-          path: "aboutcompany",
+          path: "/stromavtoline/aboutcompany",
           element: <Aboutcompany/>,
         },
         {
-          path: "catalog",
+          path: "/stromavtoline/catalog",
           element: <Catalog/>,
         },
       ]

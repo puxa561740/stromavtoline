@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/stromavtoline/static/css/main.cc1625f1.css",
-    "main.js": "/stromavtoline/static/js/main.2239745d.js",
+    "main.js": "/stromavtoline/static/js/main.029eb634.js",
     "static/js/453.668c1385.chunk.js": "/stromavtoline/static/js/453.668c1385.chunk.js",
     "index.html": "/stromavtoline/index.html",
     "main.cc1625f1.css.map": "/stromavtoline/static/css/main.cc1625f1.css.map",
-    "main.2239745d.js.map": "/stromavtoline/static/js/main.2239745d.js.map",
+    "main.029eb634.js.map": "/stromavtoline/static/js/main.029eb634.js.map",
     "453.668c1385.chunk.js.map": "/stromavtoline/static/js/453.668c1385.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc1625f1.css",
-    "static/js/main.2239745d.js"
+    "static/js/main.029eb634.js"
   ]
 }

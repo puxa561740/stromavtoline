@@ -12,7 +12,7 @@ export default function Header() {
                 <nav id="headerList">
                     <ul>
                         <li>
-                           <NavLink to="/" className={({ isActive, isPending }) =>
+                           <NavLink to="/stromavtoline" className={({ isActive, isPending }) =>
                       isActive
                         ? "active"
                         : isPending
@@ -23,18 +23,18 @@ export default function Header() {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/aboutcompany"}>
+                            <NavLink to={"/stromavtoline/aboutcompany"}>
                                 О компании
                             </NavLink>
                          </li>
                         <li>
-                            <NavLink to={"/catalog"}>
+                            <NavLink to={"/stromavtoline/catalog"}>
                                 каталог товаров
                             </NavLink>
                             
                         </li>
                         <li>
-                            <NavLink to={"/contacts"}>
+                            <NavLink to={"/stromavtoline/contacts"}>
                                 контакты
                             </NavLink>
                         </li>
