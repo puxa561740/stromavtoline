@@ -1,18 +1,18 @@
-import Rout from "./routers/createBrowserRouter";
+import Header from "./components/Header/header";
+import { Outlet } from "react-router-dom";
+import './App.css';
 
 export default function App() {
   return( 
     <>
       <header>
-        header
+        <Header/>
       </header>
-      <body>
-        1
-        <ul>
-          <li><Rout/></li>
-        </ul>
-        2
-      </body>
+      <main>
+        <div>
+          <Outlet/>
+        </div>
+      </main>
       <footer>
         footer
       </footer>
