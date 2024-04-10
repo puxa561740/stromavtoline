@@ -1,5 +1,6 @@
-main {
+#main {
     width: 80%;
+    max-width: 1400px;
     height: 90vh;
     background-color: bisque;
 }

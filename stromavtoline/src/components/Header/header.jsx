@@ -1,5 +1,5 @@
 
-import { NavLink } from 'react-router-dom';
+import { NavLink, Navigate } from 'react-router-dom';
 import './header.css';
 
 export default function Header() {
@@ -12,35 +12,30 @@ export default function Header() {
                 <nav id="headerList">
                     <ul>
                         <li>
-                           <NavLink to="/stromavtoline" className={({ isActive, isPending }) =>
-                      isActive
-                        ? "active"
-                        : isPending
-                        ? "pending"
-                        : ""
-                    }>
+                           <NavLink to="/main">
                                 главная
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/stromavtoline/aboutcompany"}>
+                            <NavLink to={"/aboutcompany"}>
                                 О компании
                             </NavLink>
                          </li>
                         <li>
-                            <NavLink to={"/stromavtoline/catalog"}>
+                            <NavLink to={"/catalog"}>
                                 каталог товаров
                             </NavLink>
                             
                         </li>
                         <li>
-                            <NavLink to={"/stromavtoline/contacts"}>
+                            <NavLink to={"/contacts"}>
                                 контакты
                             </NavLink>
                         </li>
                     </ul>
                 </nav>
         </header>
+        <Navigate to="/main" />
       </>  
     )
 }

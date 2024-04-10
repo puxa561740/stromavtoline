@@ -7,24 +7,33 @@ import App from '../App';
 import Aboutcompany from '../components/AboutCompany/aboutcompany';
 import Contacts from "../components/Contacts/contact";
 import Catalog from "../components/Сatalog/catalog";
+import Main from "../components/Main/main";
+
 
 const router = createBrowserRouter (
-  [
+  [{
+    basename: "/stromavtoline",
+  },
     {
-      path: '/stromavtoline',
+      path: '/',
       element: <App/>,
       errorElement: <ErrorPage />,
       children: [
         {
-          path: "/stromavtoline/contacts",
+          path: 'main',
+          element: <Main />,
+          
+        },
+        {
+          path: "contacts",
           element: <Contacts/>,
         },
         {
-          path: "/stromavtoline/aboutcompany",
+          path: "aboutcompany",
           element: <Aboutcompany/>,
         },
         {
-          path: "/stromavtoline/catalog",
+          path: "catalog",
           element: <Catalog/>,
         },
       ]
