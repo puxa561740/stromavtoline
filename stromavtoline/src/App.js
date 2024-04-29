@@ -8,7 +8,7 @@ export default function App() {
     <>
       <Header/>
       <main id="main">  
-        <Outlet />
+        <Outlet/>
       </main>
       <Footer/>
     </>
